@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/header/Header';
+import { HeaderBootstrap } from './components/headerbootstrap/HeaderBootstrap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    
+    <HeaderBootstrap></HeaderBootstrap>
   </React.StrictMode>
 );
 
